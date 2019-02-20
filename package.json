@@ -1,0 +1,17 @@
+{
+  "name": "pg-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "createdb pg-bug-local-test-db 2>/dev/null; yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & yes > /dev/null & node index.js; killall yes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "lodash": "^4.17.11",
+    "pg-using-bluebird": "^3.2.0"
+  }
+}
